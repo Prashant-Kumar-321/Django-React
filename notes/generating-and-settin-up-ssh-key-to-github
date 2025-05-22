@@ -1,0 +1,12 @@
+Generating ssh key
+
+$ ssh-keygen -t rsa/ED25519 -b 4096/no-need -C "example@gmail.com"
+
+default location of ssh key 
+~/.ssh
+
+Note: 
+After generating ssh key add the public ssh key 
+to the github account so that you can seemless 
+interact with github remote repositories without any trouble like 
+you can clone, push, pull code from and to the remote repository.
